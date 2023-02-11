@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .container {
+            position: absolute;
+            display: flex;
+            top: 100px;
+            left: 100px;
+
+            width: 300px;
+            height: 200px;
+            background-color: rgb(222, 222, 240);
+            border-radius: 20px;
+            border: 2px solid black;
+        }
+
+        .container div {
+            font-size: 12px;
+            display: flex;
+            position: absolute;
+            top: -15px;
+            left: 75px;
+            width: 150px;
+            height: 40px;
+            background-color: red;
+            border-radius: 10px;
+            border: 2px solid black;
+            text-align: center;
+            font-weight: bold;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+        }
+
+        p {
+            display: flex;
+            position: absolute;
+            top: 0;
+
+        }
+
+        .container p {
+            font-size: 10px;
+            display: flex;
+            position: absolute;
+            z-index: 2;
+
+            top: 70px;
+            left: 50px;
+            width: 200px;
+            height: auto;
+        }
+            
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            Texto ejemplo
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, perferendis vel? Dicta maxime inventore totam esse iste exercitationem, ipsum non ipsa, amet at quas debitis? Similique sint nisi temporibus placeat!</p>
+    </div>
+    
+</body>
+</html>
